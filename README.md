@@ -50,7 +50,7 @@ Full experiments use 50 trials, large Monte Carlo sets, and many validation cand
 
 ## Reproduction notes
 
-The organization preserves the original model formulations and selected figure settings. It removes notebook output, exploratory newsvendor cells, machine-specific paths, and stale launch scripts. Runtime repairs and differences between manuscript descriptions and existing implementations are documented in [convergence notes](docs/convergence_notes.md), [regression notes](docs/regression_notes.md), and [newsvendor notes](docs/newsvendor_notes.md).
+The organization preserves the original model formulations and selected figure settings. It removes notebook output, exploratory newsvendor cells, machine-specific paths, and stale launch scripts. Runtime repairs and differences between manuscript descriptions and existing implementations are documented in [the reproduction guide](docs/REPRODUCING.md#convergence-settings-and-moment-bounds), [regression notes](docs/regression_notes.md), and [newsvendor notes](docs/newsvendor_notes.md).
 
 In particular, the bounded-support implementation uses `Omega = 1.0`, while Appendix E.1 describes an empirical second moment. The regression implementation uses the empirical training second moment, while Appendix E.4 states twice that value. These original settings are preserved and documented. Saved reference results come from the original runs; deterministic seeding repairs and solver changes can make new results differ.
 
@@ -71,5 +71,3 @@ git push -u origin main
 ```
 
 Replace the example repository URL with your own. The project's GitHub repository is [LanranFang/tipm-dro](https://github.com/LanranFang/tipm-dro).
-
-中文说明：[README.zh-CN.md](README.zh-CN.md).

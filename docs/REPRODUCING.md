@@ -70,8 +70,18 @@ jupyter lab
 
 Open a notebook under one of the experiment directories and execute its cells in order. Paths resolve relative to the repository rather than the original machine. Use the Python entry points for explicit quick modes and command-line controls. The regression notebook preserves the original additional exploratory dimension `d=3`; the paper runner uses the four dimensions shown in Figure 3.
 
+## Convergence settings and moment bounds
+
+The full convergence experiments preserve dimensions `[5,25,100]`, Monte Carlo sample sizes `[2,5,10,20,50,100,250,500]`, 50 replications, 100 symmetric historical observations, `epsilon=0`, and seed `20260519`. The decision set is the unit ball, with the known empirical optimizer `x_star=0.1*ones(d)`. Four Gaussian unit directions and weights from 0.5 to 1.5 define eight affine loss pieces. Each replication uses nested prefixes of one pool of 500 auxiliary decisions.
+
+For Figure 1, the original bounded-support implementation and archived CSVs use `Omega=1.0`. Appendix E.1 instead describes the empirical training second moment. The implementation setting is preserved; historical samples in the unit ball satisfy its moment bound. For Figure 5, both the implementation and Appendix E.2 use `Omega=d/(d+2)`. Historical coordinates are independent Student-t samples with five degrees of freedom, scaled to variance `1/(d+2)`. The sampled dual is enforced on all of `R^d` without a Section 4 tail constraint.
+
+For Student-t observations, the empirical second moment can exceed the population value `Omega`, even with symmetric sample pairs. The identity `V_0(x)=E_P_hat[loss(x,xi)]` at `epsilon=0` requires that `P_hat` satisfy the ambiguity set's moment bound; that feasibility condition is not automatic in this experiment. Symmetry and convexity still make `x_star` an empirical optimizer. The archived curves should therefore be interpreted as empirical objective gaps of the sampled-dual solutions. They show mean percentage gaps, interquartile bands, and pooled fixed-slope `C/sqrt(M)` fits, whose constants are 26.97917269 and 30.59275634.
+
+The prepared programs preserve the original model coefficients, moment bounds, sampling rules and solver tolerances. They use repository-relative output paths, default to four workers, check solver status and finite solutions, and render with MathText instead of requiring LaTeX. Their source and reference-output hashes are in [source_manifest.json](source_manifest.json).
+
 ## Interpretation and provenance
 
-Archived CSVs are unchanged copies of original runs. Numerical settings with differences from the supplied manuscript are explained in [convergence_notes.md](convergence_notes.md) and [regression_notes.md](regression_notes.md). Operational repairs and the selected newsvendor cells are documented in [newsvendor_notes.md](newsvendor_notes.md). No full experiment was rerun merely to organize this repository.
+Archived CSVs are unchanged copies of original runs. Numerical settings with differences from the supplied manuscript are explained above and in [regression_notes.md](regression_notes.md). Operational repairs and the selected newsvendor cells are documented in [newsvendor_notes.md](newsvendor_notes.md). No full experiment was rerun merely to organize this repository.
 
 Checks performed on the prepared copy are recorded in [VALIDATION.md](VALIDATION.md). [SOURCE_MAP.md](SOURCE_MAP.md) and [source_manifest.json](source_manifest.json) record which original files supplied the notebooks, scripts, modules, and reference results.

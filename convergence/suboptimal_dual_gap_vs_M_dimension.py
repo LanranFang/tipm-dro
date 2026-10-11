@@ -2,7 +2,7 @@
 
 The complete experiment runs only when main() is called or this script is
 executed directly. Use --quick for a small smoke experiment saved separately
-in results/convergence/quick/. See docs/convergence_notes.md.
+in results/convergence/quick/. See docs/REPRODUCING.md.
 """
 
 

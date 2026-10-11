@@ -12,28 +12,28 @@
       "source": "suboptimal_dual_gap_vs_M_dimension.ipynb",
       "kind": "cleaned_notebook",
       "source_sha256": "49ff3dce6e10e12231bf3b631e809c030dec9e792ca6be404388743f7868f321",
-      "prepared_sha256": "b1eba361ba7bdf3aca49ede828eeb68fbdd1f156c80e276cc72d17bd89719b32"
+      "prepared_sha256": "97a6940e37ce0c8d6346771c27b9d07f3e015bc0091a418c8212710c70f9f414"
     },
     {
       "target": "convergence/suboptimal_dual_gap_vs_M_dimension.py",
       "source": "suboptimal_dual_gap_vs_M_dimension.ipynb",
       "kind": "exported_script",
       "source_sha256": "49ff3dce6e10e12231bf3b631e809c030dec9e792ca6be404388743f7868f321",
-      "prepared_sha256": "7832b8d6de97c25d510a4c58304a792cc5d488d62c7774c7ef85859cdc44a39b"
+      "prepared_sha256": "b2823962c1245dda93b7cc7878f6810dbbd81e4467893ba1c0fa96123cada105"
     },
     {
       "target": "convergence/suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
       "source": "suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
       "kind": "cleaned_notebook",
       "source_sha256": "6296082888fec699850b44a42c7f71c776007c3369ecff5e84ee512f55fb4ed7",
-      "prepared_sha256": "bde7ba69184e4eadb2db180f0f572906c217b686819d36008bead637b73d0bc3"
+      "prepared_sha256": "c616e85fc16293c1c54aa7352c657f4b80065c2bb979fc0c695e227b487bcea6"
     },
     {
       "target": "convergence/suboptimal_dual_gap_vs_M_dimension_student_t_xi.py",
       "source": "suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
       "kind": "exported_script",
       "source_sha256": "6296082888fec699850b44a42c7f71c776007c3369ecff5e84ee512f55fb4ed7",
-      "prepared_sha256": "a25c310c105ac0d46265ac75a018d29485a9fe842882b3047cc29c80d2459f20"
+      "prepared_sha256": "6d8cf06cf8bd8ab172c3bb8c23c68317aa4b417b75cf664a95b7983e7be088c0"
     },
     {
       "target": "newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",

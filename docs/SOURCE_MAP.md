@@ -14,7 +14,7 @@ Paths in the original-source column are relative to the original `/home/lanran/p
 | `exp1_oos.ipynb` | `regression/exp1_oos.ipynb`; command-line adaptation `run_regression.py` | Figures 3–4 |
 | `exp1_oos_worker.py` | `regression/exp1_oos_worker.py` | Equation (42) and regression baselines |
 
-The newsvendor notebooks retain the final selected-trial experiment and plotting cells; their original zero-based cell indices and individual edits are in [newsvendor/SOURCE_MANIFEST.json](../newsvendor/SOURCE_MANIFEST.json). The convergence and regression notes document their edits and parameter differences.
+The newsvendor notebooks retain the final selected-trial experiment and plotting cells; their original zero-based cell indices and individual edits are in [newsvendor/SOURCE_MANIFEST.json](../newsvendor/SOURCE_MANIFEST.json). The reproduction guide and regression notes document the other edits and parameter differences.
 
 ## Reference outputs
 
