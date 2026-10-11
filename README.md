@@ -70,6 +70,6 @@ git remote add origin https://github.com/YOUR_USERNAME/tipm-dro.git
 git push -u origin main
 ```
 
-Replace the example repository URL with your own. This folder contains no configured GitHub remote.
+Replace the example repository URL with your own. The project's GitHub repository is [LanranFang/tipm-dro](https://github.com/LanranFang/tipm-dro).
 
 中文说明：[README.zh-CN.md](README.zh-CN.md).

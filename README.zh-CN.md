@@ -52,4 +52,4 @@ git remote add origin https://github.com/YOUR_USERNAME/tipm-dro.git
 git push -u origin main
 ```
 
-整理过程只准备本地文件；没有创建 GitHub 仓库或执行远程上传。
+GitHub 仓库：[LanranFang/tipm-dro](https://github.com/LanranFang/tipm-dro)。
