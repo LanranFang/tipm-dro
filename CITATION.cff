@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying targeted IPM-DRO manuscript when using these experiments."
+type: software
+title: "TIPM-DRO: organized manuscript experiment code"
+authors:
+  - family-names: Fang
+    given-names: Lanran
+  - family-names: Cheng
+    given-names: Jianqiang
+  - family-names: Hanasusanto
+    given-names: Grani A.
+  - family-names: Wang
+    given-names: Yijie
+preferred-citation:
+  type: unpublished
+  title: "Distributionally Robust Optimization via Targeted Integral Probability Metric for General Data Processes"
+  authors:
+    - family-names: Fang
+      given-names: Lanran
+    - family-names: Cheng
+      given-names: Jianqiang
+    - family-names: Hanasusanto
+      given-names: Grani A.
+    - family-names: Wang
+      given-names: Yijie

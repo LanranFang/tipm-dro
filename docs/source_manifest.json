@@ -1,0 +1,626 @@
+{
+  "manuscript": {
+    "source": "IPM_DRO.pdf",
+    "sha256": "2ed9dd429d9c10c5773618500aabba5cdcecdf5019b6d4cf7631e55bb786a276",
+    "included_in_upload": false
+  },
+  "source_paths_relative_to": "original projects directory",
+  "prepared_paths_relative_to": "repository root",
+  "files": [
+    {
+      "target": "convergence/suboptimal_dual_gap_vs_M_dimension.ipynb",
+      "source": "suboptimal_dual_gap_vs_M_dimension.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "49ff3dce6e10e12231bf3b631e809c030dec9e792ca6be404388743f7868f321",
+      "prepared_sha256": "b1eba361ba7bdf3aca49ede828eeb68fbdd1f156c80e276cc72d17bd89719b32"
+    },
+    {
+      "target": "convergence/suboptimal_dual_gap_vs_M_dimension.py",
+      "source": "suboptimal_dual_gap_vs_M_dimension.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "49ff3dce6e10e12231bf3b631e809c030dec9e792ca6be404388743f7868f321",
+      "prepared_sha256": "7832b8d6de97c25d510a4c58304a792cc5d488d62c7774c7ef85859cdc44a39b"
+    },
+    {
+      "target": "convergence/suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
+      "source": "suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "6296082888fec699850b44a42c7f71c776007c3369ecff5e84ee512f55fb4ed7",
+      "prepared_sha256": "bde7ba69184e4eadb2db180f0f572906c217b686819d36008bead637b73d0bc3"
+    },
+    {
+      "target": "convergence/suboptimal_dual_gap_vs_M_dimension_student_t_xi.py",
+      "source": "suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "6296082888fec699850b44a42c7f71c776007c3369ecff5e84ee512f55fb4ed7",
+      "prepared_sha256": "a25c310c105ac0d46265ac75a018d29485a9fe842882b3047cc29c80d2459f20"
+    },
+    {
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "a0b496a982e91a36e22afb3473c7ea368fd1c415cf753cc66f2a56a806a54d33",
+      "prepared_sha256": "34168238f243317dea9482666ec3abe04c433bbef70f0ee7d8dff1863487d70e",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/chisquare/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Gaussian_3D.ipynb",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Gaussian_3D.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "5fed676e06c9cbc85ed9cc7c6fb71b5730e750d467955dbfad64d4cdcf49c951",
+      "prepared_sha256": "e4af7b7137e61226525919f91c59092bc6f3405f77d99dc0c33a710e26d961ca",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/gaussian/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks.",
+        "Drop exploratory cell 8 containing invalid n_trials_fig5 = syntax."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Lognormal_3D.ipynb",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Lognormal_3D.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "276eaa3b7aa5c6559f9a57ce548e9e57dd8b0f4b454ed6d59fcf7e912f387b13",
+      "prepared_sha256": "6185e272b584bca68a83ffb8ff6c059d3d6fd779eca6245a4a3d615b27b36173",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/lognormal/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Pareto_3D.ipynb",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Pareto_3D.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "deb35b5246b27c5d7b29ad131f82cdedda07f83d2be7180f43a2dd068da928f2",
+      "prepared_sha256": "b6763636cc25288147141ec7f93c52907c96bc9d86b2fa81b4e3ece72d2cc464",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/pareto/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11
+      ]
+    },
+    {
+      "target": "newsvendor/ipm_3d_explicit_models.py",
+      "source": "newsvendor/ipm_3d_explicit_models.py",
+      "kind": "adapted_module",
+      "source_sha256": "ca75d1b83dbee9b1c44dba27cf854dc24a58260327c15e32ba14aef8177dbfd0",
+      "prepared_sha256": "599020812a9e8c3ce10909fa74a08001ca9b6deaa495af68af8438c2bb6c4366",
+      "changes": [
+        "Add configurable default solver (CLARABEL; IPM_DRO_SOLVER override).",
+        "Check solver availability, status and finite objective.",
+        "Conic equations and coefficients unchanged."
+      ]
+    },
+    {
+      "target": "newsvendor/run_chisquare_3d.py",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "a0b496a982e91a36e22afb3473c7ea368fd1c415cf753cc66f2a56a806a54d33",
+      "prepared_sha256": "c616343ae88ccfe7f02d5a410dc1b5013b194f67d307404ce604a3ed6885e4e4",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/chisquare/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/run_gaussian_3d.py",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Gaussian_3D.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "5fed676e06c9cbc85ed9cc7c6fb71b5730e750d467955dbfad64d4cdcf49c951",
+      "prepared_sha256": "c9527dc4c5922a31040be4b14f4dabbe928634f690cdefd36764c049a8d0fbb7",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/gaussian/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks.",
+        "Drop exploratory cell 8 containing invalid n_trials_fig5 = syntax."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/run_lognormal_3d.py",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Lognormal_3D.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "276eaa3b7aa5c6559f9a57ce548e9e57dd8b0f4b454ed6d59fcf7e912f387b13",
+      "prepared_sha256": "35dcd4a5261c9ddcd38b67bf147a99908d340d11b67d144e6bbfd1e5dd6b85e2",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/lognormal/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "target": "newsvendor/run_pareto_3d.py",
+      "source": "newsvendor/IPM_DRO_multi_Newsvendor_Pareto_3D.ipynb",
+      "kind": "exported_script",
+      "source_sha256": "deb35b5246b27c5d7b29ad131f82cdedda07f83d2be7180f43a2dd068da928f2",
+      "prepared_sha256": "2ed22f4226739febb5d60e9fc0b342ed419ad95e87814eba5b64782d76a92243",
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/pareto/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11
+      ]
+    },
+    {
+      "target": "reference_results/convergence/bounded/suboptimal_gap_summary_for_plot.csv",
+      "source": "suboptimal_gap_figures/suboptimal_gap_summary_for_plot.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "c2986810e87d0f2f06dc5a82ce9b104a02dd2711cf7e26509d63023df3d0ceb9",
+      "prepared_sha256": "c2986810e87d0f2f06dc5a82ce9b104a02dd2711cf7e26509d63023df3d0ceb9"
+    },
+    {
+      "target": "reference_results/convergence/bounded/suboptimal_known_opt_gap_results.csv",
+      "source": "suboptimal_known_opt_gap_results.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "26ca495b667fa75a56de36006cdbbee5e275c941a6af6a14eee914cd63602e2b",
+      "prepared_sha256": "26ca495b667fa75a56de36006cdbbee5e275c941a6af6a14eee914cd63602e2b"
+    },
+    {
+      "target": "reference_results/convergence/bounded/suboptimal_known_opt_gap_summary.csv",
+      "source": "suboptimal_known_opt_gap_summary.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "59fb996ca83f82110c47ea500590e66b615f6f735cc44d68442fa5fc4b61d701",
+      "prepared_sha256": "59fb996ca83f82110c47ea500590e66b615f6f735cc44d68442fa5fc4b61d701"
+    },
+    {
+      "target": "reference_results/convergence/bounded/suboptimal_percentage_gap_vs_M_by_dim.pdf",
+      "source": "suboptimal_gap_figures/suboptimal_percentage_gap_vs_M_by_dim.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "c99c44b432a0330d434b73a2ed22ca1dae7cfbc1504b4018c7d4deffce5dbc56",
+      "prepared_sha256": "c99c44b432a0330d434b73a2ed22ca1dae7cfbc1504b4018c7d4deffce5dbc56"
+    },
+    {
+      "target": "reference_results/convergence/student_t/suboptimal_gap_summary_for_plot.csv",
+      "source": "suboptimal_gap_figures_student_t_xi/suboptimal_gap_summary_for_plot.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "b954703605e9c6ddff90c21a14f366bf918cee8aaa2d158bdbbbb8e995c9eaa4",
+      "prepared_sha256": "b954703605e9c6ddff90c21a14f366bf918cee8aaa2d158bdbbbb8e995c9eaa4"
+    },
+    {
+      "target": "reference_results/convergence/student_t/suboptimal_known_opt_gap_results_student_t_xi.csv",
+      "source": "suboptimal_known_opt_gap_results_student_t_xi.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "4948b0090dd41a3aad4b8cdcb02daebc9a6fe3544e043af1424bd7864f62251a",
+      "prepared_sha256": "4948b0090dd41a3aad4b8cdcb02daebc9a6fe3544e043af1424bd7864f62251a"
+    },
+    {
+      "target": "reference_results/convergence/student_t/suboptimal_known_opt_gap_summary_student_t_xi.csv",
+      "source": "suboptimal_known_opt_gap_summary_student_t_xi.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "f8f5711dd48ce591b156cc844e864c4db1dc6d6ebce82927e01d839484e2d83c",
+      "prepared_sha256": "f8f5711dd48ce591b156cc844e864c4db1dc6d6ebce82927e01d839484e2d83c"
+    },
+    {
+      "target": "reference_results/convergence/student_t/suboptimal_percentage_gap_vs_M_by_dim.pdf",
+      "source": "suboptimal_gap_figures_student_t_xi/suboptimal_percentage_gap_vs_M_by_dim.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "cc16422134a0ae4386e4df89fc4092da2a5ad39c4dbdd7af42c844ca18003c9e",
+      "prepared_sha256": "cc16422134a0ae4386e4df89fc4092da2a5ad39c4dbdd7af42c844ca18003c9e"
+    },
+    {
+      "target": "reference_results/newsvendor/chisquare/NV_3D_OOS_plot_by_N_chisquare.pdf",
+      "source": "newsvendor/results/chisquare_3d/eps_tables/NV_3D_OOS_plot_by_N_chisquare.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "90cefc7969fc1b01d1d8cab80eea5ab5e85e1b7d7f87aa21c106476a2da605ad",
+      "prepared_sha256": "90cefc7969fc1b01d1d8cab80eea5ab5e85e1b7d7f87aa21c106476a2da605ad"
+    },
+    {
+      "target": "reference_results/newsvendor/chisquare/NV_3D_oos_summary_by_N_comparison.csv",
+      "source": "newsvendor/results/chisquare_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "9e570b83cae5e90d6efbcfb5705498d6ac827089339f7acb67dca20f54dfc335",
+      "prepared_sha256": "9e570b83cae5e90d6efbcfb5705498d6ac827089339f7acb67dca20f54dfc335"
+    },
+    {
+      "target": "reference_results/newsvendor/chisquare/NV_3D_selected_summary.csv",
+      "source": "newsvendor/results/chisquare_3d/eps_tables/NV_3D_selected_summary.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "8ab9baddb1b519958233438ee8d9a7b6fc15abf7a6b25bb1948d49dffcc4f255",
+      "prepared_sha256": "8ab9baddb1b519958233438ee8d9a7b6fc15abf7a6b25bb1948d49dffcc4f255"
+    },
+    {
+      "target": "reference_results/newsvendor/chisquare/NV_3D_selected_trials.csv",
+      "source": "newsvendor/results/chisquare_3d/eps_tables/NV_3D_selected_trials.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "401455886615aac82a9c6c20dcd51153874e51326e0204b1999191e663eabcd8",
+      "prepared_sha256": "401455886615aac82a9c6c20dcd51153874e51326e0204b1999191e663eabcd8"
+    },
+    {
+      "target": "reference_results/newsvendor/gaussian/NV_3D_OOS_plot_by_N_gaussian.pdf",
+      "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_OOS_plot_by_N_gaussian.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "b2e0e7f900f8908d71eececdf79551d70235c1bef6a3d2b2438fe207a884ef1e",
+      "prepared_sha256": "b2e0e7f900f8908d71eececdf79551d70235c1bef6a3d2b2438fe207a884ef1e"
+    },
+    {
+      "target": "reference_results/newsvendor/gaussian/NV_3D_oos_summary_by_N_comparison.csv",
+      "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "d7872482f52791287605ec7a255f376c39a4c0969f526bca0c1928f3345b2bed",
+      "prepared_sha256": "d7872482f52791287605ec7a255f376c39a4c0969f526bca0c1928f3345b2bed"
+    },
+    {
+      "target": "reference_results/newsvendor/gaussian/NV_3D_selected_summary.csv",
+      "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_selected_summary.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "a5c7e889568c316ec46131b76bbfb4fb3a8adc06b36ecbf2e66e62e91789412d",
+      "prepared_sha256": "a5c7e889568c316ec46131b76bbfb4fb3a8adc06b36ecbf2e66e62e91789412d"
+    },
+    {
+      "target": "reference_results/newsvendor/gaussian/NV_3D_selected_trials.csv",
+      "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_selected_trials.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "ed10a6c4a140b31e1d3be5ade7ec33d9e180d61d771dffb13c5ac5e5ee4bf1ec",
+      "prepared_sha256": "ed10a6c4a140b31e1d3be5ade7ec33d9e180d61d771dffb13c5ac5e5ee4bf1ec"
+    },
+    {
+      "target": "reference_results/newsvendor/lognormal/NV_3D_OOS_plot_by_N_lognormal.pdf",
+      "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_OOS_plot_by_N_lognormal.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "38bf7d545db1eb7887500541c2fc825f8f266079e07df6947956d3e452ac346f",
+      "prepared_sha256": "38bf7d545db1eb7887500541c2fc825f8f266079e07df6947956d3e452ac346f"
+    },
+    {
+      "target": "reference_results/newsvendor/lognormal/NV_3D_oos_summary_by_N_comparison.csv",
+      "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "53ccd7c96a18110fb2bb6f06696c9d38f7fcd4fc52609282c9dea557e6e901ff",
+      "prepared_sha256": "53ccd7c96a18110fb2bb6f06696c9d38f7fcd4fc52609282c9dea557e6e901ff"
+    },
+    {
+      "target": "reference_results/newsvendor/lognormal/NV_3D_selected_summary.csv",
+      "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_selected_summary.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "8c0a868c1fc11b74794ea765af467a236f8076bb795d126bc635eff4046e9b5b",
+      "prepared_sha256": "8c0a868c1fc11b74794ea765af467a236f8076bb795d126bc635eff4046e9b5b"
+    },
+    {
+      "target": "reference_results/newsvendor/lognormal/NV_3D_selected_trials.csv",
+      "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_selected_trials.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "851fb4941083b5ca1c78531e7b2e11df4d7d464fa6798abafa9d02d62a2b06d2",
+      "prepared_sha256": "851fb4941083b5ca1c78531e7b2e11df4d7d464fa6798abafa9d02d62a2b06d2"
+    },
+    {
+      "target": "reference_results/newsvendor/pareto/NV_3D_OOS_plot_by_N_pareto.pdf",
+      "source": "newsvendor/results/pareto_3D/eps_tables/NV_3D_OOS_plot_by_N_pareto.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "c779a42239fd4eb179a56384d77f641112ccb3500881fbd70e9e78f9fc912d9f",
+      "prepared_sha256": "c779a42239fd4eb179a56384d77f641112ccb3500881fbd70e9e78f9fc912d9f"
+    },
+    {
+      "target": "reference_results/newsvendor/pareto/NV_3D_oos_summary_by_N_comparison.csv",
+      "source": "newsvendor/results/pareto_3D/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "cccf92146692632aebb9d13e9568ce9f2fff2a7e104ccdac9853fef600a80d92",
+      "prepared_sha256": "cccf92146692632aebb9d13e9568ce9f2fff2a7e104ccdac9853fef600a80d92"
+    },
+    {
+      "target": "reference_results/newsvendor/pareto/NV_3D_selected_summary.csv",
+      "source": "newsvendor/results/pareto_3D/eps_tables/NV_3D_selected_summary.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "70dd3948d240c760b0a271a3b532468fc7d0aa77e6f03842268eef008d27ca3d",
+      "prepared_sha256": "70dd3948d240c760b0a271a3b532468fc7d0aa77e6f03842268eef008d27ca3d"
+    },
+    {
+      "target": "reference_results/newsvendor/pareto/NV_3D_selected_trials.csv",
+      "source": "newsvendor/results/pareto_3D/eps_tables/NV_3D_selected_trials.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "f3b2345deb67775681d41e1b9d447b5f5b3b3ff486f0eb89a1cb763dead9805b",
+      "prepared_sha256": "f3b2345deb67775681d41e1b9d447b5f5b3b3ff486f0eb89a1cb763dead9805b"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs10.csv",
+      "source": "results/cont_scale/cont_scale_cs10.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "6a723a0a20a44c8014794e2ea060b474d94a50f5506842c1181da84c53ba319e",
+      "prepared_sha256": "6a723a0a20a44c8014794e2ea060b474d94a50f5506842c1181da84c53ba319e"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs11.csv",
+      "source": "results/cont_scale/cont_scale_cs11.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "725c6476a5469a5bd3ec429cca2848662dd3c351c85666db9d9f59395c7fd304",
+      "prepared_sha256": "725c6476a5469a5bd3ec429cca2848662dd3c351c85666db9d9f59395c7fd304"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs12.csv",
+      "source": "results/cont_scale/cont_scale_cs12.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "55aeb748239bbb19e1ebfe63cb7e97a1b3b5fcedf780f708f2d14f81833fa6de",
+      "prepared_sha256": "55aeb748239bbb19e1ebfe63cb7e97a1b3b5fcedf780f708f2d14f81833fa6de"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs13.csv",
+      "source": "results/cont_scale/cont_scale_cs13.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "055c4ce3f04279bf0f20a6d0122c7c111a632a5334b47f97c2f456ccd9e29671",
+      "prepared_sha256": "055c4ce3f04279bf0f20a6d0122c7c111a632a5334b47f97c2f456ccd9e29671"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs14.csv",
+      "source": "results/cont_scale/cont_scale_cs14.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "7c4dfd8f3a3e6317915f6a0a738af080ea6593b6cffe1714c421f081b5c33939",
+      "prepared_sha256": "7c4dfd8f3a3e6317915f6a0a738af080ea6593b6cffe1714c421f081b5c33939"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs15.csv",
+      "source": "results/cont_scale/cont_scale_cs15.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "61ca68a58169001358e459b1c0133a3fe9a7b464a052c4038a1cc633ad99d97f",
+      "prepared_sha256": "61ca68a58169001358e459b1c0133a3fe9a7b464a052c4038a1cc633ad99d97f"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs16.csv",
+      "source": "results/cont_scale/cont_scale_cs16.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "a03ae136a2b26cc52f38a1047d0d31b0e32936b27e552a0b01897b76e469bb23",
+      "prepared_sha256": "a03ae136a2b26cc52f38a1047d0d31b0e32936b27e552a0b01897b76e469bb23"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs17.csv",
+      "source": "results/cont_scale/cont_scale_cs17.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "33b8993bbe1b0d34ee9461d91280fbc9f1f20a430a826d7532630d797967a0b9",
+      "prepared_sha256": "33b8993bbe1b0d34ee9461d91280fbc9f1f20a430a826d7532630d797967a0b9"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs18.csv",
+      "source": "results/cont_scale/cont_scale_cs18.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "8554d0c8dcb727c3b24d5fd8011e86d27f3548c999bbb292ee608a95dc493eff",
+      "prepared_sha256": "8554d0c8dcb727c3b24d5fd8011e86d27f3548c999bbb292ee608a95dc493eff"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs19.csv",
+      "source": "results/cont_scale/cont_scale_cs19.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "f54ec7d7e5c5edd0e8c6820e4086abc18e5feeca1f12846a947a1efaeb068407",
+      "prepared_sha256": "f54ec7d7e5c5edd0e8c6820e4086abc18e5feeca1f12846a947a1efaeb068407"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs20.csv",
+      "source": "results/cont_scale/cont_scale_cs20.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "61bd2917080caa8d48869bbbcbba47dc54c2c6d1cfa5dbf6f8709479dd5bdbb6",
+      "prepared_sha256": "61bd2917080caa8d48869bbbcbba47dc54c2c6d1cfa5dbf6f8709479dd5bdbb6"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs5.csv",
+      "source": "results/cont_scale/cont_scale_cs5.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "bb5ef1b808bb631fdba3842e98e6c4fd1cfbc02f9e36f4941a8ab132049e8ae2",
+      "prepared_sha256": "bb5ef1b808bb631fdba3842e98e6c4fd1cfbc02f9e36f4941a8ab132049e8ae2"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs6.csv",
+      "source": "results/cont_scale/cont_scale_cs6.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "8f7922adff86392f5dfc16894e28d7eb845e4d8f9a7ed61d9b57a93a2ad33af8",
+      "prepared_sha256": "8f7922adff86392f5dfc16894e28d7eb845e4d8f9a7ed61d9b57a93a2ad33af8"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs7.csv",
+      "source": "results/cont_scale/cont_scale_cs7.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "b938780ab2c5a2f2fa78c28825eb0df612bde5a1ac711716ad2c421eaf990eac",
+      "prepared_sha256": "b938780ab2c5a2f2fa78c28825eb0df612bde5a1ac711716ad2c421eaf990eac"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs8.csv",
+      "source": "results/cont_scale/cont_scale_cs8.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "26eb349fa79b5d012c3c308e6ee47dc40ca9c76987532bfbc9b902d2ec9d283a",
+      "prepared_sha256": "26eb349fa79b5d012c3c308e6ee47dc40ca9c76987532bfbc9b902d2ec9d283a"
+    },
+    {
+      "target": "reference_results/regression/cont_scale/cont_scale_cs9.csv",
+      "source": "results/cont_scale/cont_scale_cs9.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "b8a99b8231e052fafe9305cc296e76f9ce0c426001ba01d0e04b1865601a8b2d",
+      "prepared_sha256": "b8a99b8231e052fafe9305cc296e76f9ce0c426001ba01d0e04b1865601a8b2d"
+    },
+    {
+      "target": "reference_results/regression/dim_sweep/dim_sweep_d1.csv",
+      "source": "results/dim_sweep/dim_sweep_d1.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "bdbc0cbb2634e93f50d9c55ac9ae0ab27999046e7df0914ef22c5b19b063d61b",
+      "prepared_sha256": "bdbc0cbb2634e93f50d9c55ac9ae0ab27999046e7df0914ef22c5b19b063d61b"
+    },
+    {
+      "target": "reference_results/regression/dim_sweep/dim_sweep_d10.csv",
+      "source": "results/dim_sweep/dim_sweep_d10.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "fa478f8d3a7db9da385a03a36d87b79fc188738521b40bcda13bb5b6a2f8f889",
+      "prepared_sha256": "fa478f8d3a7db9da385a03a36d87b79fc188738521b40bcda13bb5b6a2f8f889"
+    },
+    {
+      "target": "reference_results/regression/dim_sweep/dim_sweep_d5.csv",
+      "source": "results/dim_sweep/dim_sweep_d5.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "e36a473f3969cb49e7d97edbb7f3f23ae378b0a7341702fdfb959fcfd967ee22",
+      "prepared_sha256": "e36a473f3969cb49e7d97edbb7f3f23ae378b0a7341702fdfb959fcfd967ee22"
+    },
+    {
+      "target": "reference_results/regression/dim_sweep/dim_sweep_d50.csv",
+      "source": "results/dim_sweep/dim_sweep_d50.csv",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "e495b2f3e22dea85f9ebb6288f9719760cb401f1b331218bc501a1c76e3d12fb",
+      "prepared_sha256": "e495b2f3e22dea85f9ebb6288f9719760cb401f1b331218bc501a1c76e3d12fb"
+    },
+    {
+      "target": "reference_results/regression/exp1_contamination_scale.pdf",
+      "source": "exp1_contamination_scale.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "23d207047b4a0747ada8488442e6baf07ae707a2294d8310cf50379a0263df21",
+      "prepared_sha256": "23d207047b4a0747ada8488442e6baf07ae707a2294d8310cf50379a0263df21"
+    },
+    {
+      "target": "reference_results/regression/exp1_oos_dim_sweep_d1.pdf",
+      "source": "exp1_oos_dim_sweep_d1.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "1c612a8fb82748f9c86f9d6e023f5a5d36315839c1b2224b52dc2164ed8df5ce",
+      "prepared_sha256": "1c612a8fb82748f9c86f9d6e023f5a5d36315839c1b2224b52dc2164ed8df5ce"
+    },
+    {
+      "target": "reference_results/regression/exp1_oos_dim_sweep_d10.pdf",
+      "source": "exp1_oos_dim_sweep_d10.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "73a53acda54f81d0d1705c381e2eb3da7b21fb3ff25242bca6ee9f7c201cf480",
+      "prepared_sha256": "73a53acda54f81d0d1705c381e2eb3da7b21fb3ff25242bca6ee9f7c201cf480"
+    },
+    {
+      "target": "reference_results/regression/exp1_oos_dim_sweep_d5.pdf",
+      "source": "exp1_oos_dim_sweep_d5.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "3fbc0238f0934e25379bdf45c36a96da6a56c93ef6e956710bb25961a55acbdb",
+      "prepared_sha256": "3fbc0238f0934e25379bdf45c36a96da6a56c93ef6e956710bb25961a55acbdb"
+    },
+    {
+      "target": "reference_results/regression/exp1_oos_dim_sweep_d50.pdf",
+      "source": "exp1_oos_dim_sweep_d50.pdf",
+      "kind": "unchanged_reference_output",
+      "source_sha256": "fc026e05118c041ddaa169a05ce28a885dfdc7dc83381995086dbb73439d0c03",
+      "prepared_sha256": "fc026e05118c041ddaa169a05ce28a885dfdc7dc83381995086dbb73439d0c03"
+    },
+    {
+      "target": "regression/exp1_oos.ipynb",
+      "source": "exp1_oos.ipynb",
+      "kind": "cleaned_notebook",
+      "source_sha256": "058d67cfdb8ae65adac1226d733df5df66f5d04f0701d119986be5901825f12d",
+      "prepared_sha256": "0279230b95ba071a2ebf052418e716a026665d4188dd78bc72ade86e8429c26b"
+    },
+    {
+      "target": "regression/exp1_oos_worker.py",
+      "source": "exp1_oos_worker.py",
+      "kind": "adapted_module",
+      "source_sha256": "6c18958d995ba7c0022e19df2713afb1ebec3c56b592d479243f6643ee295d7a",
+      "prepared_sha256": "2a006ea280085b8467d3f9ec5f76cfabb3ca1668913b76ea7249eed490288423"
+    },
+    {
+      "target": "regression/run_regression.py",
+      "source": "exp1_oos.ipynb",
+      "kind": "new_command_line_adaptation",
+      "source_sha256": "058d67cfdb8ae65adac1226d733df5df66f5d04f0701d119986be5901825f12d",
+      "prepared_sha256": "639366de7eb1416602ef916c3752de86985a8141e6e272035a6f90b5c59344fd",
+      "additional_source": "exp1_oos_worker.py"
+    }
+  ]
+}

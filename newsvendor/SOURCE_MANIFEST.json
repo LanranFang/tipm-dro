@@ -1,0 +1,218 @@
+{
+  "figure": "Figure 2; Section 5.1; Appendix E.3",
+  "original_cell_indices_are_zero_based": true,
+  "files": [
+    {
+      "source": "/home/lanran/projects/newsvendor/ipm_3d_explicit_models.py",
+      "target": "newsvendor/ipm_3d_explicit_models.py",
+      "sha256": "ca75d1b83dbee9b1c44dba27cf854dc24a58260327c15e32ba14aef8177dbfd0",
+      "changes": [
+        "Add configurable default solver (CLARABEL; IPM_DRO_SOLVER override).",
+        "Check solver availability, status and finite objective.",
+        "Conic equations and coefficients unchanged."
+      ],
+      "target_sha256": "599020812a9e8c3ce10909fa74a08001ca9b6deaa495af68af8438c2bb6c4366"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/IPM_DRO_multi_Newsvendor_Gaussian_3D.ipynb",
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Gaussian_3D.ipynb",
+      "script": "newsvendor/run_gaussian_3d.py",
+      "sha256": "5fed676e06c9cbc85ed9cc7c6fb71b5730e750d467955dbfad64d4cdcf49c951",
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/gaussian/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks.",
+        "Drop exploratory cell 8 containing invalid n_trials_fig5 = syntax."
+      ],
+      "target_sha256": "e4af7b7137e61226525919f91c59092bc6f3405f77d99dc0c33a710e26d961ca",
+      "script_sha256": "c9527dc4c5922a31040be4b14f4dabbe928634f690cdefd36764c049a8d0fbb7"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_ChiSquare_3D.ipynb",
+      "script": "newsvendor/run_chisquare_3d.py",
+      "sha256": "a0b496a982e91a36e22afb3473c7ea368fd1c415cf753cc66f2a56a806a54d33",
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/chisquare/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "target_sha256": "34168238f243317dea9482666ec3abe04c433bbef70f0ee7d8dff1863487d70e",
+      "script_sha256": "c616343ae88ccfe7f02d5a410dc1b5013b194f67d307404ce604a3ed6885e4e4"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/IPM_DRO_multi_Newsvendor_Lognormal_3D.ipynb",
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Lognormal_3D.ipynb",
+      "script": "newsvendor/run_lognormal_3d.py",
+      "sha256": "276eaa3b7aa5c6559f9a57ce548e9e57dd8b0f4b454ed6d59fcf7e912f387b13",
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/lognormal/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "target_sha256": "6185e272b584bca68a83ffb8ff6c059d3d6fd779eca6245a4a3d615b27b36173",
+      "script_sha256": "35dcd4a5261c9ddcd38b67bf147a99908d340d11b67d144e6bbfd1e5dd6b85e2"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/IPM_DRO_multi_Newsvendor_Pareto_3D.ipynb",
+      "target": "newsvendor/IPM_DRO_multi_Newsvendor_Pareto_3D.ipynb",
+      "script": "newsvendor/run_pareto_3d.py",
+      "sha256": "deb35b5246b27c5d7b29ad131f82cdedda07f83d2be7180f43a2dd068da928f2",
+      "retained_original_cells": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "changes": [
+        "Retain only final Figure 2 cells; remove exploratory single-item, epsilon scans and improvements.",
+        "Remove duplicated in-notebook TIPM definitions; import helper implementations.",
+        "Clear notebook outputs, execution counts and run-specific metadata.",
+        "Resolve repository paths from either repository root or newsvendor working directory.",
+        "Use results/newsvendor/pareto/eps_tables for generated outputs.",
+        "Default solver CLARABEL with IPM_DRO_SOLVER/--solver override; original equations unchanged.",
+        "Default workers 1; main guard and explicit worker initialization in exported script.",
+        "Keep solver failures in an errors column; retry incomplete rows on resume.",
+        "Add --quick/--output-dir to Python entrypoint for isolated execution checks."
+      ],
+      "target_sha256": "b6763636cc25288147141ec7f93c52907c96bc9d86b2fa81b4e3ece72d2cc464",
+      "script_sha256": "2ed22f4226739febb5d60e9fc0b342ed419ad95e87814eba5b64782d76a92243"
+    }
+  ],
+  "reference_results": [
+    {
+      "source": "/home/lanran/projects/newsvendor/results/gaussian_3d/eps_tables/NV_3D_selected_trials.csv",
+      "target": "reference_results/newsvendor/gaussian/NV_3D_selected_trials.csv",
+      "sha256": "ed10a6c4a140b31e1d3be5ade7ec33d9e180d61d771dffb13c5ac5e5ee4bf1ec"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/gaussian_3d/eps_tables/NV_3D_selected_summary.csv",
+      "target": "reference_results/newsvendor/gaussian/NV_3D_selected_summary.csv",
+      "sha256": "a5c7e889568c316ec46131b76bbfb4fb3a8adc06b36ecbf2e66e62e91789412d"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/gaussian_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "target": "reference_results/newsvendor/gaussian/NV_3D_oos_summary_by_N_comparison.csv",
+      "sha256": "d7872482f52791287605ec7a255f376c39a4c0969f526bca0c1928f3345b2bed"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/gaussian_3d/eps_tables/NV_3D_OOS_plot_by_N_gaussian.pdf",
+      "target": "reference_results/newsvendor/gaussian/NV_3D_OOS_plot_by_N_gaussian.pdf",
+      "sha256": "b2e0e7f900f8908d71eececdf79551d70235c1bef6a3d2b2438fe207a884ef1e"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/chisquare_3d/eps_tables/NV_3D_selected_trials.csv",
+      "target": "reference_results/newsvendor/chisquare/NV_3D_selected_trials.csv",
+      "sha256": "401455886615aac82a9c6c20dcd51153874e51326e0204b1999191e663eabcd8"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/chisquare_3d/eps_tables/NV_3D_selected_summary.csv",
+      "target": "reference_results/newsvendor/chisquare/NV_3D_selected_summary.csv",
+      "sha256": "8ab9baddb1b519958233438ee8d9a7b6fc15abf7a6b25bb1948d49dffcc4f255"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/chisquare_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "target": "reference_results/newsvendor/chisquare/NV_3D_oos_summary_by_N_comparison.csv",
+      "sha256": "9e570b83cae5e90d6efbcfb5705498d6ac827089339f7acb67dca20f54dfc335"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/chisquare_3d/eps_tables/NV_3D_OOS_plot_by_N_chisquare.pdf",
+      "target": "reference_results/newsvendor/chisquare/NV_3D_OOS_plot_by_N_chisquare.pdf",
+      "sha256": "90cefc7969fc1b01d1d8cab80eea5ab5e85e1b7d7f87aa21c106476a2da605ad"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/lognormal_3d/eps_tables/NV_3D_selected_trials.csv",
+      "target": "reference_results/newsvendor/lognormal/NV_3D_selected_trials.csv",
+      "sha256": "851fb4941083b5ca1c78531e7b2e11df4d7d464fa6798abafa9d02d62a2b06d2"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/lognormal_3d/eps_tables/NV_3D_selected_summary.csv",
+      "target": "reference_results/newsvendor/lognormal/NV_3D_selected_summary.csv",
+      "sha256": "8c0a868c1fc11b74794ea765af467a236f8076bb795d126bc635eff4046e9b5b"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/lognormal_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "target": "reference_results/newsvendor/lognormal/NV_3D_oos_summary_by_N_comparison.csv",
+      "sha256": "53ccd7c96a18110fb2bb6f06696c9d38f7fcd4fc52609282c9dea557e6e901ff"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/lognormal_3d/eps_tables/NV_3D_OOS_plot_by_N_lognormal.pdf",
+      "target": "reference_results/newsvendor/lognormal/NV_3D_OOS_plot_by_N_lognormal.pdf",
+      "sha256": "38bf7d545db1eb7887500541c2fc825f8f266079e07df6947956d3e452ac346f"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/pareto_3D/eps_tables/NV_3D_selected_trials.csv",
+      "target": "reference_results/newsvendor/pareto/NV_3D_selected_trials.csv",
+      "sha256": "f3b2345deb67775681d41e1b9d447b5f5b3b3ff486f0eb89a1cb763dead9805b"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/pareto_3D/eps_tables/NV_3D_selected_summary.csv",
+      "target": "reference_results/newsvendor/pareto/NV_3D_selected_summary.csv",
+      "sha256": "70dd3948d240c760b0a271a3b532468fc7d0aa77e6f03842268eef008d27ca3d"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/pareto_3D/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
+      "target": "reference_results/newsvendor/pareto/NV_3D_oos_summary_by_N_comparison.csv",
+      "sha256": "cccf92146692632aebb9d13e9568ce9f2fff2a7e104ccdac9853fef600a80d92"
+    },
+    {
+      "source": "/home/lanran/projects/newsvendor/results/pareto_3D/eps_tables/NV_3D_OOS_plot_by_N_pareto.pdf",
+      "target": "reference_results/newsvendor/pareto/NV_3D_OOS_plot_by_N_pareto.pdf",
+      "sha256": "c779a42239fd4eb179a56384d77f641112ccb3500881fbd70e9e78f9fc912d9f"
+    }
+  ],
+  "validation": [
+    "All five Python files parse and import without running experiments.",
+    "All four cleaned notebooks have valid Python cells, empty outputs and null execution counts.",
+    "Four CLARABEL quick runs completed with N=10, one trial, 8 uniform auxiliary points (+ SAA), 100 OOS points and epsilon=0.01; all three methods succeeded with empty error fields.",
+    "Gaussian quick run with two spawn workers completed; serial and spawn results agree.",
+    "Every archived selected-trial table has 350 unique rows (7 sample sizes x 50 trials), with no missing SAA/Wass/IPM OOS values.",
+    "Archived mean and 10th/90th percentile summaries were recomputed from the archived trials and matched the selected-summary and OOS comparison CSVs.",
+    "Original source SHA-256 values remain unchanged; archived CSV/PDF copies retain the original bytes.",
+    "The complete paper-size optimization sweep was not rerun."
+  ]
+}

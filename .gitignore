@@ -1,0 +1,31 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# Locally generated experiment output; reference_results/ is tracked
+results/
+logs/
+checkpoints/
+*.log
+nohup.out
+
+# Credentials and local solver configuration
+.env
+.env.*
+!.env.example
+gurobi.lic
+mosek.lic
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+*.zip
