@@ -1,8 +1,10 @@
 # TIPM-DRO
 
-Code organized from the existing experiments for **Distributionally Robust Optimization via Targeted Integral Probability Metric for General Data Processes**, by Lanran Fang, Jianqiang Cheng, Grani A. Hanasusanto, and Yijie Wang.
+Code organized from the existing experiments for **Distributionally Robust Optimization via Targeted Integral Probability Metrics for General Data Processes**, by Lanran Fang, Jianqiang Cheng, Grani A. Hanasusanto, and Yijie Wang.
 
-The supplied manuscript contains mathematical formulations and experiment descriptions. This repository collects their matching Python and Jupyter implementations from the original project, together with the saved results used for the figures.
+Paper: [Optimization Online](https://optimization-online.org/?p=34965).
+
+The supplied manuscript contains mathematical formulations and experiment descriptions. This repository collects their matching Python and Jupyter implementations from the original project, together with the saved numerical results used for the figures.
 
 | Paper figure | Experiment | Code |
 | --- | --- | --- |
@@ -11,7 +13,7 @@ The supplied manuscript contains mathematical formulations and experiment descri
 | Figures 3–4; Section 5.2; Appendix E.4 | Regression with outlier corruption | `regression/` |
 | Figure 5; Appendix E.2 | Monte Carlo approximation, Student-t uncertainty | `convergence/suboptimal_dual_gap_vs_M_dimension_student_t_xi.ipynb` |
 
-Each experiment notebook has a corresponding Python entry point. `reference_results/` contains selected original CSV tables and figures. New experiment output is written under `results/`, which Git ignores.
+Each experiment notebook has a corresponding Python entry point. `reference_results/` contains selected original CSV tables. New experiment output is written under `results/`, which Git ignores.
 
 ## Installation
 
@@ -56,7 +58,7 @@ In particular, the bounded-support implementation uses `Omega = 1.0`, while Appe
 
 The original regression worker evaluated a zero predictor when a fit failed. The prepared worker reports failed methods explicitly and records missing risk values instead. Archived regression CSVs retain the original behavior and should be read with that limitation; see the regression notes for details.
 
-Source provenance is recorded in [the source map](docs/SOURCE_MAP.md) and [the checksum manifest](docs/source_manifest.json). The supplied PDF and unrelated exploratory experiments are not included in this upload folder.
+Source provenance is recorded in [the source map](docs/SOURCE_MAP.md) and [the checksum manifest](docs/source_manifest.json). The paper and exported figure files are excluded from Git and release archives. Plotting scripts generate figures locally under the ignored `results/` directory.
 
 ## Upload to GitHub
 

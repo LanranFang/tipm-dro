@@ -13,7 +13,7 @@ authors:
     given-names: Yijie
 preferred-citation:
   type: unpublished
-  title: "Distributionally Robust Optimization via Targeted Integral Probability Metric for General Data Processes"
+  title: "Distributionally Robust Optimization via Targeted Integral Probability Metrics for General Data Processes"
   authors:
     - family-names: Fang
       given-names: Lanran
@@ -23,3 +23,5 @@ preferred-citation:
       given-names: Grani A.
     - family-names: Wang
       given-names: Yijie
+  year: 2026
+  url: "https://optimization-online.org/?p=34965"

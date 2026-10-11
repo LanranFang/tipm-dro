@@ -1,7 +1,7 @@
 # Regression code and experiment provenance
 
 This directory corresponds to Section 5.2, Appendix E.4, and Figures 3 and 4 of
-`IPM_DRO.pdf`. The original files have been left untouched.
+the [paper on Optimization Online](https://optimization-online.org/?p=34965). The original files have been left untouched.
 
 | Original source | Repository copy | Role |
 | --- | --- | --- |
@@ -10,7 +10,6 @@ This directory corresponds to Section 5.2, Appendix E.4, and Figures 3 and 4 of
 | Notebook sweep cells | `regression/run_regression.py` | Import-safe command-line entry point with a `__main__` guard |
 | `results/dim_sweep/dim_sweep_d{1,5,10,50}.csv` | `reference_results/regression/dim_sweep/` | Original Figure 3 trial results |
 | `results/cont_scale/cont_scale_cs{5,...,20}.csv` | `reference_results/regression/cont_scale/` | Original Figure 4 trial results |
-| `exp1_oos_dim_sweep_d{1,5,10,50}.pdf`, `exp1_contamination_scale.pdf` | `reference_results/regression/` | Original final exported plots |
 
 The four dimension CSVs each contain 250 rows (50 trials at each of five sample
 sizes). The sixteen contamination CSVs each contain 50 rows. The extra original

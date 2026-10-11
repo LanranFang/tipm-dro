@@ -24,3 +24,12 @@ Preparation date: 2026-10-11. Checks used Python 3.13.0, NumPy 2.3.4, Pandas 2.3
 Quick modes use reduced settings and isolated output paths. They do not establish agreement with the full paper curves. Archived regression CSVs preserve the original zero-predictor fallback and do not contain sufficient status information to verify that every original fit succeeded. Second-moment and evaluation differences are documented in the experiment notes.
 
 Recheck the prepared sources and reference coverage with `python tools/check_project.py`. Redraw the saved figure statistics with `python tools/plot_reference_results.py`.
+
+## Code-only GitHub distribution
+
+The manuscript and exported figure files are excluded from Git and the release
+ZIP. The README and citation metadata link to
+https://optimization-online.org/?p=34965. Numerical CSV records remain available.
+After this change, `tools/check_project.py` passed syntax, clean-notebook,
+54-file provenance, and reference coverage checks. `tools/plot_reference_results.py`
+regenerated all five figures locally from CSV data.

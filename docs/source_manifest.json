@@ -2,7 +2,8 @@
   "manuscript": {
     "source": "IPM_DRO.pdf",
     "sha256": "2ed9dd429d9c10c5773618500aabba5cdcecdf5019b6d4cf7631e55bb786a276",
-    "included_in_upload": false
+    "included_in_upload": false,
+    "url": "https://optimization-online.org/?p=34965"
   },
   "source_paths_relative_to": "original projects directory",
   "prepared_paths_relative_to": "repository root",
@@ -279,13 +280,6 @@
       "prepared_sha256": "59fb996ca83f82110c47ea500590e66b615f6f735cc44d68442fa5fc4b61d701"
     },
     {
-      "target": "reference_results/convergence/bounded/suboptimal_percentage_gap_vs_M_by_dim.pdf",
-      "source": "suboptimal_gap_figures/suboptimal_percentage_gap_vs_M_by_dim.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "c99c44b432a0330d434b73a2ed22ca1dae7cfbc1504b4018c7d4deffce5dbc56",
-      "prepared_sha256": "c99c44b432a0330d434b73a2ed22ca1dae7cfbc1504b4018c7d4deffce5dbc56"
-    },
-    {
       "target": "reference_results/convergence/student_t/suboptimal_gap_summary_for_plot.csv",
       "source": "suboptimal_gap_figures_student_t_xi/suboptimal_gap_summary_for_plot.csv",
       "kind": "unchanged_reference_output",
@@ -305,20 +299,6 @@
       "kind": "unchanged_reference_output",
       "source_sha256": "f8f5711dd48ce591b156cc844e864c4db1dc6d6ebce82927e01d839484e2d83c",
       "prepared_sha256": "f8f5711dd48ce591b156cc844e864c4db1dc6d6ebce82927e01d839484e2d83c"
-    },
-    {
-      "target": "reference_results/convergence/student_t/suboptimal_percentage_gap_vs_M_by_dim.pdf",
-      "source": "suboptimal_gap_figures_student_t_xi/suboptimal_percentage_gap_vs_M_by_dim.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "cc16422134a0ae4386e4df89fc4092da2a5ad39c4dbdd7af42c844ca18003c9e",
-      "prepared_sha256": "cc16422134a0ae4386e4df89fc4092da2a5ad39c4dbdd7af42c844ca18003c9e"
-    },
-    {
-      "target": "reference_results/newsvendor/chisquare/NV_3D_OOS_plot_by_N_chisquare.pdf",
-      "source": "newsvendor/results/chisquare_3d/eps_tables/NV_3D_OOS_plot_by_N_chisquare.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "90cefc7969fc1b01d1d8cab80eea5ab5e85e1b7d7f87aa21c106476a2da605ad",
-      "prepared_sha256": "90cefc7969fc1b01d1d8cab80eea5ab5e85e1b7d7f87aa21c106476a2da605ad"
     },
     {
       "target": "reference_results/newsvendor/chisquare/NV_3D_oos_summary_by_N_comparison.csv",
@@ -342,13 +322,6 @@
       "prepared_sha256": "401455886615aac82a9c6c20dcd51153874e51326e0204b1999191e663eabcd8"
     },
     {
-      "target": "reference_results/newsvendor/gaussian/NV_3D_OOS_plot_by_N_gaussian.pdf",
-      "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_OOS_plot_by_N_gaussian.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "b2e0e7f900f8908d71eececdf79551d70235c1bef6a3d2b2438fe207a884ef1e",
-      "prepared_sha256": "b2e0e7f900f8908d71eececdf79551d70235c1bef6a3d2b2438fe207a884ef1e"
-    },
-    {
       "target": "reference_results/newsvendor/gaussian/NV_3D_oos_summary_by_N_comparison.csv",
       "source": "newsvendor/results/gaussian_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
       "kind": "unchanged_reference_output",
@@ -370,13 +343,6 @@
       "prepared_sha256": "ed10a6c4a140b31e1d3be5ade7ec33d9e180d61d771dffb13c5ac5e5ee4bf1ec"
     },
     {
-      "target": "reference_results/newsvendor/lognormal/NV_3D_OOS_plot_by_N_lognormal.pdf",
-      "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_OOS_plot_by_N_lognormal.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "38bf7d545db1eb7887500541c2fc825f8f266079e07df6947956d3e452ac346f",
-      "prepared_sha256": "38bf7d545db1eb7887500541c2fc825f8f266079e07df6947956d3e452ac346f"
-    },
-    {
       "target": "reference_results/newsvendor/lognormal/NV_3D_oos_summary_by_N_comparison.csv",
       "source": "newsvendor/results/lognormal_3d/eps_tables/NV_3D_oos_summary_by_N_comparison.csv",
       "kind": "unchanged_reference_output",
@@ -396,13 +362,6 @@
       "kind": "unchanged_reference_output",
       "source_sha256": "851fb4941083b5ca1c78531e7b2e11df4d7d464fa6798abafa9d02d62a2b06d2",
       "prepared_sha256": "851fb4941083b5ca1c78531e7b2e11df4d7d464fa6798abafa9d02d62a2b06d2"
-    },
-    {
-      "target": "reference_results/newsvendor/pareto/NV_3D_OOS_plot_by_N_pareto.pdf",
-      "source": "newsvendor/results/pareto_3D/eps_tables/NV_3D_OOS_plot_by_N_pareto.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "c779a42239fd4eb179a56384d77f641112ccb3500881fbd70e9e78f9fc912d9f",
-      "prepared_sha256": "c779a42239fd4eb179a56384d77f641112ccb3500881fbd70e9e78f9fc912d9f"
     },
     {
       "target": "reference_results/newsvendor/pareto/NV_3D_oos_summary_by_N_comparison.csv",
@@ -564,41 +523,6 @@
       "kind": "unchanged_reference_output",
       "source_sha256": "e495b2f3e22dea85f9ebb6288f9719760cb401f1b331218bc501a1c76e3d12fb",
       "prepared_sha256": "e495b2f3e22dea85f9ebb6288f9719760cb401f1b331218bc501a1c76e3d12fb"
-    },
-    {
-      "target": "reference_results/regression/exp1_contamination_scale.pdf",
-      "source": "exp1_contamination_scale.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "23d207047b4a0747ada8488442e6baf07ae707a2294d8310cf50379a0263df21",
-      "prepared_sha256": "23d207047b4a0747ada8488442e6baf07ae707a2294d8310cf50379a0263df21"
-    },
-    {
-      "target": "reference_results/regression/exp1_oos_dim_sweep_d1.pdf",
-      "source": "exp1_oos_dim_sweep_d1.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "1c612a8fb82748f9c86f9d6e023f5a5d36315839c1b2224b52dc2164ed8df5ce",
-      "prepared_sha256": "1c612a8fb82748f9c86f9d6e023f5a5d36315839c1b2224b52dc2164ed8df5ce"
-    },
-    {
-      "target": "reference_results/regression/exp1_oos_dim_sweep_d10.pdf",
-      "source": "exp1_oos_dim_sweep_d10.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "73a53acda54f81d0d1705c381e2eb3da7b21fb3ff25242bca6ee9f7c201cf480",
-      "prepared_sha256": "73a53acda54f81d0d1705c381e2eb3da7b21fb3ff25242bca6ee9f7c201cf480"
-    },
-    {
-      "target": "reference_results/regression/exp1_oos_dim_sweep_d5.pdf",
-      "source": "exp1_oos_dim_sweep_d5.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "3fbc0238f0934e25379bdf45c36a96da6a56c93ef6e956710bb25961a55acbdb",
-      "prepared_sha256": "3fbc0238f0934e25379bdf45c36a96da6a56c93ef6e956710bb25961a55acbdb"
-    },
-    {
-      "target": "reference_results/regression/exp1_oos_dim_sweep_d50.pdf",
-      "source": "exp1_oos_dim_sweep_d50.pdf",
-      "kind": "unchanged_reference_output",
-      "source_sha256": "fc026e05118c041ddaa169a05ce28a885dfdc7dc83381995086dbb73439d0c03",
-      "prepared_sha256": "fc026e05118c041ddaa169a05ce28a885dfdc7dc83381995086dbb73439d0c03"
     },
     {
       "target": "regression/exp1_oos.ipynb",

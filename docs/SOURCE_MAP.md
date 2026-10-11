@@ -22,13 +22,13 @@ The newsvendor notebooks retain the final selected-trial experiment and plotting
 | --- | --- |
 | `suboptimal_known_opt_gap_results.csv`, `suboptimal_known_opt_gap_summary.csv`, selected files in `suboptimal_gap_figures/` | `reference_results/convergence/bounded/` |
 | Student-t raw/summary CSVs and selected files in `suboptimal_gap_figures_student_t_xi/` | `reference_results/convergence/student_t/` |
-| Final selected-trial CSVs, summaries and OOS-versus-N PDFs in `newsvendor/results/{gaussian_3d,chisquare_3d,lognormal_3d,pareto_3D}/eps_tables/` | `reference_results/newsvendor/{gaussian,chisquare,lognormal,pareto}/` |
-| `results/dim_sweep/dim_sweep_d{1,5,10,50}.csv`, `results/cont_scale/cont_scale_cs{5..20}.csv`, matching plotted PDFs | `reference_results/regression/` |
+| Final selected-trial CSVs, summaries in `newsvendor/results/{gaussian_3d,chisquare_3d,lognormal_3d,pareto_3D}/eps_tables/` | `reference_results/newsvendor/{gaussian,chisquare,lognormal,pareto}/` |
+| `results/dim_sweep/dim_sweep_d{1,5,10,50}.csv`, `results/cont_scale/cont_scale_cs{5..20}.csv` | `reference_results/regression/` |
 
 Reference outputs are byte-identical copies of the original files. Their original and prepared SHA-256 hashes are recorded in [source_manifest.json](source_manifest.json). Newly drawn figures from `tools/plot_reference_results.py` are generated under the ignored `results/` directory.
 
 ## Excluded material
 
-The supplied `IPM_DRO.pdf` is used to identify the experiments and is not part of the upload folder. The original `figure_3.ipynb` implements portfolio experiments, despite its filename, and `dro_comparison.ipynb` implements a Markov-data comparison; neither supplies the current manuscript's Figures 3–4. Early temporary newsvendor versions, single-item/Gamma/K=1/3/5 extensions, theory-proxy convergence notebooks, duplicate notebooks, empty portfolio notebooks, stale shell/Slurm launchers, environments, checkpoints and unrelated outputs are excluded.
+The [paper](https://optimization-online.org/?p=34965) and exported figure files are excluded from the upload. The original `figure_3.ipynb` implements portfolio experiments, despite its filename, and `dro_comparison.ipynb` implements a Markov-data comparison; neither supplies the current manuscript's Figures 3–4. Early temporary newsvendor versions, single-item/Gamma/K=1/3/5 extensions, theory-proxy convergence notebooks, duplicate notebooks, empty portfolio notebooks, stale shell/Slurm launchers, environments, checkpoints and unrelated outputs are excluded.
 
 `tools/check_project.py`, `tools/plot_reference_results.py`, repository documentation, dependency lists and ignore rules are new preparation utilities. They are not represented as original manuscript source code.

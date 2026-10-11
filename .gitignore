@@ -29,3 +29,16 @@ build/
 dist/
 *.egg-info/
 *.zip
+
+# Manuscripts and exported figures stay local
+/paper/
+*.eps
+*.gif
+*.jpeg
+*.jpg
+*.pdf
+*.png
+*.svg
+*.tif
+*.tiff
+*.webp
